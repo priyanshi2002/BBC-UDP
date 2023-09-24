@@ -1,0 +1,58 @@
+body{
+  background-color: #fff;
+  box-sizing: border-box;
+}
+i{
+  text-align: center;
+  padding-left: 35%;
+  font-size: 40px;
+  text-shadow: black;
+  text-decoration: underline;
+}
+.container{
+ width:1200px;
+ background-color: rgb(255, 255, 255);
+ padding: 5px 20px 15px 20px;
+ margin:100px auto 0px auto;
+ border: 1px solid rgb(237, 230, 230);
+ border-radius: 10px;
+ color:rgb(0, 0, 0);
+
+}
+
+textarea{
+  color: rgb(0, 0, 0);
+  border-radius:5px;
+  background-color: rgb(234, 239, 240);
+  font-size: 18px;
+}
+fieldset{
+  background-color: rgb(242, 244, 245);
+  border:3px solid #ffffff;
+}
+input[type="submit"]:hover{
+background-color: rgb(255, 255, 255);
+border-radius: 2px;
+cursor: pointer;
+}
+  
+b{
+  font-size: larger;
+}
+@media only screen and (max-width: 500px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+hr{
+  color: antiquewhite;
+}
+
+
+
+
+
+
+
+
+
